@@ -6,3 +6,8 @@ project_name: "deniro"
 # local_dependency: {
 #   project: "name_of_other_project"
 # }
+
+constant: CONNECTION_NAME {
+  value: "cortex_sample"
+  export: none
+}
