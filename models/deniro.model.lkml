@@ -1,7 +1,7 @@
 connection: "cortex_sample"
 
 # include all the views
-include: "/views/**/*.view"
+include: "/views/**/*.view.lkml"
 
 include: "/dashboards/**/*.dashboard"
 
