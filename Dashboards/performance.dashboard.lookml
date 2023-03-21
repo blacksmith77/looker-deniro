@@ -30,3 +30,11 @@
     fields: [deniro.score, deniro.year]
     sorts: [performance.year]
     limit: 500
+#  - name: Pie
+#    title: Pie data
+#    type: looker_pie
+#    model: deniro
+#    explore: performance
+#    fields: [deniro.score, deniro.year]
+#    sorts: [performance.year]
+#    limit: 10
