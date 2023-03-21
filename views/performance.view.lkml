@@ -16,4 +16,9 @@ view: performance {
     type: count
     drill_fields: []
   }
+
+  measure: AVG {
+    type: average
+    sql:  ${score} ;;
+  }
 }
