@@ -8,9 +8,9 @@
 
   elements:
     - name: performance
-      title: Deniro's Yarly Performance
-      type: looker_bar
-#      type: looker_line
+      title: Deniro's Yearly Performance
+#      type: looker_bar
+      type: looker_line
       model: deniro
       explore: performance
       fields: [performance.score, performance.year]
